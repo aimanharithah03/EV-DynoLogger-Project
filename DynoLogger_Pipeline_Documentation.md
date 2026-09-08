@@ -2,7 +2,6 @@
 
 **Project:** Agriculture EV Truck Dyno Data Logger  
 **Author:** Aiman Harith Bin Abdul Hamid  
-**Organisation:** MiND Mechatronic Intelligent Design Sdn Bhd, Malaysian Palm Oil Board Sdn Bhd (MPOB)  
 **Version:** 1.0 — July 2026  
 
 ---
