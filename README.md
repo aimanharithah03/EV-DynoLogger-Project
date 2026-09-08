@@ -1,2 +1,14 @@
-# EV-DynoLogger-Project
-Energy Monitoring Project for Agriculture EV Truck done during OJT period at MinDnRobotics
+# Executive Summary
+This comprehensive report details the installation, wiring, and telemetry commissioning progress of the MPOB EV Truck Dyno Logger Monitor project. The core objective of this initiative is to equip the EV tractor unit with advanced real-time Voltage logging and portable, wireless telemetry capabilities to track electrical loads during dyno testing. To date, the physical monitoring unit Testing and Dashboard across the EV Truck System and load terminals have been completed. Rigorous hardware and software testing was executed during the recent site visit, yielding positive results and confirming that all wireless connectivity, live dashboard telemetry, and single-button CSV file logging systems are working properly. While the system successfully demonstrated its core logging and data-flushing capabilities, the current unit remains an active, work-in-progress prototype that has not yet been finalized. Clear action items have been outlined for the upcoming phase, focusing on industrial enclosure hardening, high-durability component upgrades, and status LED integration, pending client schedule confirmation. 
+
+# Introduction
+The MPOB EV Truck Dyno Logger Monitor Installation project represents a targeted initiative by MPOB Sdn Bhd to capture high-fidelity performance metrics of its EV tractor units. this deployment focuses on implementing a ruggedized, portable telemetry rig capable of tracking live electrical loads during dyno testing protocols. Utilizing Modbus communication protocols over a local Wi-Fi framework, the system bridges a KC-868-A2 processing unit with PZEM-017 sensor hardware. This infrastructure eliminates cumbersome wiring, allows test operators to adjust monitoring parameters safely from a live digital dashboard, and generates standardized data logs for downstream analysis.
+
+ 
+# Job Scope of the Project
+The core responsibilities and technical task for this deployment include:
+•	Wireless Connectivity: Established reliable Wi-Fi communication between the PC and the KC-868-A2 central controller PZEM reading: Read voltage, current, power, energy, high-voltage alarm and low-voltage alarm
+•	Live Telemetry & Dashboarding: Integrated the PZEM-017 sensor to accurately pull input registers for voltage, current, power, and energy, backed by automated connection error handling.
+•	Configuration & Logging Flexibility: Formulated an editable system configuration parameters screen (Modbus ID, interval timers, operator metadata) paired with an automated, flusher-to-disk CSV logging engine.
+•	Field Validation: Performed a seamless 7-step field installation and hardware startup sequence, proving that the local Wi-Fi-enabled system accurately monitors live battery thresholds and successfully saves testing sessions directly to a PC.
+•	File Logging Saving: Create easy to use and configure file saving system of all logging data in one button.
